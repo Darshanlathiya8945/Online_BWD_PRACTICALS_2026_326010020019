@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1 id="heading">Admission Form</h1>
+
+        <p class="subtitle">
+            Please fill in the details below to apply for admission.
+        </p>
+
+        <form>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div class="form-group">
+                    <label for="name">
+                        Full Name <span class="required">*</span>
+                    </label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">
+                        Email Address <span class="required">*</span>
+                    </label>
+                    <input type="email" id="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob">
+                </div>
+
+                <div class="form-group">
+                    <label>Gender</label>
+
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="gender" value="male">
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="female">
+                            Female
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="other">
+                            Other
+                        </label>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+
+                    <select id="course">
+                        <option value="">-- Select Course --</option>
+                        <option>Bachelor of Computer Applications</option>
+                        <option>Bachelor of Business Administration</option>
+                        <option>Bachelor of Science</option>
+                        <option>Bachelor of Commerce</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Preferred Subjects</label>
+
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" name="subject" value="computer">
+                            Computer Science
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="subject" value="math">
+                            Mathematics
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="subject" value="business">
+                            Business
+                        </label>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" placeholder="Enter your complete address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" required>
+                    I confirm that the information provided is correct.
+                </label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Submit Application
+            </button>
+
+        </form>
+    </div>
+
+</body>
+</html>
