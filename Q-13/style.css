@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+}
+
+.navbar {
+    background-color: #003366;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important;
+}
+
+.hero {
+    background: linear-gradient(
+        rgba(0, 51, 102, 0.75),
+        rgba(0, 51, 102, 0.75)
+    ),
+    url("https://images.unsplash.com/photo-1562774053-701939374585")
+    center/cover;
+
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.about {
+    padding: 60px 0;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.courses {
+    padding: 60px 0;
+    background-color: #eaf1f8;
+}
+
+.gallery {
+    padding: 60px 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: #003366;
+    color: white;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero {
+        padding: 70px 15px;
+    }
+}
