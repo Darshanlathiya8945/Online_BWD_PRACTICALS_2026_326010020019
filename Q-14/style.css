@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff7ed, #ffe4c4);
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #7b1e1e, #e85d04);
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.category-title {
+    color: #9d0208;
+    font-weight: 700;
+    text-align: center;
+    margin: 45px 0 25px;
+    position: relative;
+}
+
+.category-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 10px auto;
+    background: linear-gradient(to right, #e85d04, #ffba08);
+    border-radius: 10px;
+}
+
+.food-card {
+    border: 2px solid #f4a261;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 8px 18px rgba(123, 30, 30, 0.15);
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(123, 30, 30, 0.25);
+    border-color: #e85d04;
+}
+
+.food-card img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.food-card .card-body {
+    padding: 20px;
+}
+
+.food-card h5 {
+    color: #7b1e1e;
+    font-weight: 700;
+}
+
+.price {
+    color: #e85d04;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.description {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.badge-custom {
+    background: linear-gradient(90deg, #e85d04, #ffba08);
+    color: white;
+    border-radius: 20px;
+    padding: 7px 13px;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #7b1e1e, #370617);
+}
