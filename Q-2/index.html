@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Science</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Department of Computer Science</h1>
+        <p>ABC College of Engineering</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#vision">Vision & Mission</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="container">
+
+        <!-- Department Information -->
+        <section id="about">
+            <h2>About the Department</h2>
+            <p>
+                The Department of Computer Science provides quality education
+                in computer science, programming, software development, and
+                emerging technologies. The department encourages students to
+                develop technical, analytical, and problem-solving skills.
+            </p>
+
+            <h3>Programs Offered</h3>
+
+            <!-- Unordered list -->
+            <ul>
+                <li>Bachelor of Technology in Computer Science</li>
+                <li>Master of Technology in Computer Science</li>
+                <li>Ph.D. in Computer Science</li>
+            </ul>
+        </section>
+
+        <!-- Vision and Mission -->
+        <section id="vision">
+            <h2>Vision</h2>
+            <p>
+                To become a center of excellence in computer science education,
+                research, and innovation and prepare students for the challenges
+                of a rapidly changing technological world.
+            </p>
+
+            <h2>Mission</h2>
+
+            <!-- Ordered list -->
+            <ol>
+                <li>Provide strong foundations in computer science and technology.</li>
+                <li>Encourage research, innovation, and practical learning.</li>
+                <li>Develop professional and ethical values among students.</li>
+                <li>Promote collaboration with industry and academic institutions.</li>
+            </ol>
+        </section>
+
+        <!-- Faculty -->
+        <section id="faculty">
+            <h2>Faculty Information</h2>
+
+            <div class="faculty-container">
+
+                <div class="faculty-card">
+                    <h3>Dr. Rahul Sharma</h3>
+                    <p><strong>Designation:</strong> Professor & Head</p>
+                    <p><strong>Specialization:</strong> Artificial Intelligence</p>
+                    <p><strong>Email:</strong> rahul@abccollege.edu</p>
+                </div>
+
+                <div class="faculty-card">
+                    <h3>Dr. Priya Patel</h3>
+                    <p><strong>Designation:</strong> Associate Professor</p>
+                    <p><strong>Specialization:</strong> Data Science</p>
+                    <p><strong>Email:</strong> priya@abccollege.edu</p>
+                </div>
+
+                <div class="faculty-card">
+                    <h3>Prof. Amit Mehta</h3>
+                    <p><strong>Designation:</strong> Assistant Professor</p>
+                    <p><strong>Specialization:</strong> Web Technology</p>
+                    <p><strong>Email:</strong> amit@abccollege.edu</p>
+                </div>
+
+                <div class="faculty-card">
+                    <h3>Dr. Neha Shah</h3>
+                    <p><strong>Designation:</strong> Assistant Professor</p>
+                    <p><strong>Specialization:</strong> Cyber Security</p>
+                    <p><strong>Email:</strong> neha@abccollege.edu</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Details -->
+        <section id="contact" class="contact">
+            <h2>Contact Details</h2>
+
+            <p><strong>Department:</strong> Department of Computer Science</p>
+            <p><strong>College:</strong> ABC College of Engineering</p>
+            <p><strong>Address:</strong> College Road, Ahmedabad, Gujarat, India</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> cs@abccollege.edu</p>
+
+            <button onclick="showMessage()">Contact Department</button>
+            <p id="message"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ABC College of Engineering | Department of Computer Science</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Thank you for your interest. Please contact us at cs@abccollege.edu.";
+        }
+    </script>
+
+</body>
+</html>
